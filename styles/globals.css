@@ -25,3 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+/* Hide scrollbars for Chrome, Safari, and Edge */
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for Firefox */
+.no-scroll {
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* Optional: Maintain smooth scrolling */
+.no-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
